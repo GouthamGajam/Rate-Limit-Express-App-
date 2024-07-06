@@ -1,0 +1,17 @@
+{
+  "name": "rate-limit-express-app-",
+  "version": "1.0.0",
+  "description": "The express-rate-limit middleware, This middleware helps to limit repeated requests to public APIs and endpoints, providing basic protection against brute-force attacks.",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start":"node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1"
+  }
+}
