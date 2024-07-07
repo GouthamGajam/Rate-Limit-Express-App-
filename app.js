@@ -16,7 +16,7 @@ const limiter = rateLimit({
 app.use(limiter);
 
 app.get('/', (req, res) => {
-  res.send('Hello, world!');
+  res.send("Hello, world!");
 });
 
 const PORT = 3000;
